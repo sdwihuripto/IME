@@ -7,8 +7,8 @@
         <ul class="nav nav-pills nav-stacked col-edit">
             <li><%: Html.ActionLink("Home", "Index", "Home") %></li>
             <li class="active"><%: Html.ActionLink("Input Nomor Surat", "NomorSurat", "Home") %></li>
-            <li><%: Html.ActionLink("Update Profil Eksportir", "ProfilEksportir", "Home") %></li>
-            <li><%: Html.ActionLink("Update Profil Bank", "ProfilBank", "Home") %></li>
+            <li><%: Html.ActionLink("Update Profil Eksportir", "Create", "ExpProfile") %></li>
+            <li><%: Html.ActionLink("Update Profil Bank", "Create", "BankProfile") %></li>
         </ul>
         
         <div class="warnaBody col-lg-offset-2">

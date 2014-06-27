@@ -182,15 +182,24 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BankProfileController.cs" />
+    <Compile Include="Controllers\ExpProfileController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\BankProfileDB.cs" />
+    <Compile Include="Models\ExpProfileDB.cs" />
+    <Compile Include="Models\IMEDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\IMEDBContext.mdf" />
+    <Content Include="App_Data\IMEDBContext_log.ldf">
+      <DependentUpon>IMEDBContext.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\script\bootstrap.js" />
     <Content Include="Content\script\bootstrap.min.js" />
     <Content Include="Content\themes\bootstrap-theme.css" />
@@ -214,6 +223,16 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Views\BankProfile\Create.aspx" />
+    <Content Include="Views\BankProfile\Delete.aspx" />
+    <Content Include="Views\BankProfile\Details.aspx" />
+    <Content Include="Views\BankProfile\Edit.aspx" />
+    <Content Include="Views\BankProfile\Index.aspx" />
+    <Content Include="Views\ExpProfile\Create.aspx" />
+    <Content Include="Views\ExpProfile\Delete.aspx" />
+    <Content Include="Views\ExpProfile\Details.aspx" />
+    <Content Include="Views\ExpProfile\Edit.aspx" />
+    <Content Include="Views\ExpProfile\Index.aspx" />
     <Content Include="Views\Home\NomorSurat.aspx" />
     <Content Include="Views\Home\ProfilBank.aspx" />
     <Content Include="Views\Home\ProfilEksportir.aspx" />
@@ -255,9 +274,7 @@
     <Content Include="Views\Shared\Site.Master" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>

@@ -15,7 +15,6 @@
 
     </head>
     <body>
-        <form id="form1" runat="server">
         <div class="tinggi-coba">
             <div class="page-header col-sm-12 warnaHeader">
                 <h2><div class="warnaBI col-edit-1"><img src="../../Images/BI.png" style="height:72px; width:72px" /> BANK INDONESIA <small>Informasi Monitoring Eksportir</small></div></h2>
@@ -24,8 +23,7 @@
             
             <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
 
-            <footer><div class="margin-untuk-footer warnaBI" id="footerBI"><div class="col-lg-offset-10"><small>@Copyright BANK INDONESIA</small></div></div></footer>
+            <!-- <footer><div class="margin-untuk-footer warnaBI" id="footerBI"><div class="col-lg-offset-10"><small>@Copyright BANK INDONESIA</small></div></div></footer> -->
         </div>
-        </form>
     </body>
 </html>
