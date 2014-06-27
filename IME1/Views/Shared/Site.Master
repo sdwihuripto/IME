@@ -18,7 +18,8 @@
         <form id="form1" runat="server">
         <div class="tinggi-coba">
             <div class="page-header col-sm-12 warnaHeader">
-                <h2><div class="warnaBI">BANK INDONESIA <small>Informasi Monitoring Eksportir</small></div></h2>
+                <h2><div class="warnaBI col-edit-1"><img src="../../Images/BI.png" style="height:72px; width:72px" /> BANK INDONESIA <small>Informasi Monitoring Eksportir</small></div></h2>
+
             </div>
             
             <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>

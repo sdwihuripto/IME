@@ -12,18 +12,19 @@
         </ul>
         
         <div class="warnaBody col-lg-offset-2">
-            <table>
+            <table class="col-lg-offset-1">
                 <tr>
-                    <td class="col-sm-5">
-                        <div class="input-group col-sm-5 col-lg-offset-3 margin-semua-form">
-                            <div class="warnaFont margin-semua-form">Nomor Surat:</div>
-                            <input type="text" class="form-control" placeholder="Nomor Surat">
-                        </div>
+                    <td>
+                        <div class="margin-semua-form">Nomor Surat</div>
+                    </td>
+                    <td>
+                        <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Nomor Surat">
                     </td>
                 </tr>
                 <tr>
-                    <td class="col-sm-5">
-                        <button type="submit" class="btn btn-default col-lg-offset-3 margin-semua-form">Submit</button>
+                    <td></td>
+                    <td>
+                        <button type="submit" class="btn btn-default col-lg-offset-2 margin-semua-form">Submit</button>
                     </td>
                 </tr>
             </table>

@@ -12,42 +12,43 @@
     </ul>
     
     <div class="warnaBody col-lg-offset-2">
-        <table>
+        <table class="col-lg-offset-1">
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-5 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont margin-semua-form">Sandi Bank:</div>
-                        <input type="text" class="form-control" placeholder="Sandi Bank">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Sandi Bank</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Sandi Bank">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-5 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Nama Bank:</div>
-                        <input type="text" class="form-control" placeholder="Nama Bank">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Nama Bank</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Nama Bank">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-5 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Email Bank:</div>
-                        <input type="text" class="form-control" placeholder="Email Bank">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Email Bank</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email Bank">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-5 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Email AO Bank:</div>
-                        <input type="text" class="form-control" placeholder="Email AO Bank">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Email AO Bank</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email AO Bank">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <button type="submit" class="btn btn-default col-lg-offset-3 margin-semua-form">Submit</button>
+                <td></td>
+                <td>
+                    <button type="submit" class="btn btn-default col-lg-offset-2 margin-semua-form">Submit</button>
                 </td>
             </tr>
         </table>

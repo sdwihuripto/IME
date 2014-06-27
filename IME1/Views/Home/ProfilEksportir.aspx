@@ -12,90 +12,88 @@
     </ul>
 
     <div class="warnaBody col-lg-offset-2">
-        <table>
+        <table class="col-lg-offset-1">
             <tr>
-                <td class="col-sm-5">
-                     <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">NPWP:</div>
-                        <input type="text" class="form-control" placeholder="Username">
-                    </div>
+                <td>
+                     <div class="margin-semua-form">NPWP</div>
                 </td>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Nama:</div>
-                        <input type="text" class="form-control" placeholder="Nama">
-                    </div>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-1 margin-semua-form" placeholder="NPWP">
+                </td>
+                <td>
+                    <div class="margin-semua-form col-lg-offset-4">Provinsi</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Provinsi">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Alamat 1:</div>
-                        <input type="text" class="form-control" placeholder="Alamat 1">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Nama</div>
                 </td>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Alamat 2:</div>
-                        <input type="text" class="form-control" placeholder="Alamat 2">
-                    </div>
+                <td>
+                   <input type="text" class="form-control col-lg-offset-1 margin-semua-form" placeholder="Nama">
                 </td>
-            </tr>
-            <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Kota:</div>
-                        <input type="text" class="form-control" placeholder="Kota">
-                    </div>
+                <td>
+                    <div class="margin-semua-form col-lg-offset-4">Email Eksportir</div>
                 </td>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Kode Pos:</div>
-                        <input type="text" class="form-control" placeholder="Kode Pos">
-                    </div>
+                <td>
+                   <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email Eksportir">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Provinsi:</div>
-                        <input type="text" class="form-control" placeholder="Provinsi">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Alamat 1</div>
                 </td>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Email Eksportir:</div>
-                        <input type="text" class="form-control" placeholder="Email Eksportir">
-                    </div>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-1 margin-semua-form" placeholder="Alamat 1">
                 </td>
-            </tr>
-            <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">AO Eksport:</div>
-                        <input type="text" class="form-control" placeholder="AO Eksport">
-                    </div>
+                <td>
+                    <div class="margin-semua-form col-lg-offset-4">AO Eksportir</div>
                 </td>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Email AO:</div>
-                        <input type="text" class="form-control" placeholder="Email AO">
-                    </div>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="AO Eksportir">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <div class="input-group col-sm-10 col-lg-offset-3 margin-semua-form">
-                        <div class="warnaFont">Status Surat:</div>
-                        <input type="text" class="form-control" placeholder="Status Surat">
-                    </div>
+                <td>
+                    <div class="margin-semua-form">Alamat 2</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-1 margin-semua-form" placeholder="Alamat 2">
+                </td>
+                <td>
+                    <div class="margin-semua-form col-lg-offset-4">Email AO</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email AO">
                 </td>
             </tr>
             <tr>
-                <td class="col-sm-5">
-                    <button type="submit" class="btn btn-default col-lg-offset-3 margin-semua-form">Submit</button>
+                <td>
+                    <div class="margin-semua-form">Kota</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-1 margin-semua-form" placeholder="Kota">
+                </td>
+                <td>
+                    <div class="margin-semua-form col-lg-offset-4">Status Surat</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Status Surat">
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <div class="margin-semua-form">Kode Pos</div>
+                </td>
+                <td>
+                    <input type="text" class="form-control col-lg-offset-1 margin-semua-form" placeholder="Kode Pos">
+                </td>
+                <td></td>
+                <td>
+                    <button type="submit" class="btn btn-default col-lg-offset-2 margin-semua-form">Submit</button>
+                </td>
         </table>
     </div>
 </asp:Content>

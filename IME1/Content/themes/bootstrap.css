@@ -5796,7 +5796,7 @@ button.close {
 .warnaBody {
     background-color: #eee;
     width:83.3%;
-    height:94.2%;
+    height:95.3%;
 }
 
 .warnaBI {
@@ -5822,8 +5822,8 @@ button.close {
 #footerBI {
     clear: both;
     position: relative;
+    height: 2.5em;
     z-index: 10;
-    height: 3em;
     margin-top: -1em;
     background-color:navy;
 }
@@ -5841,22 +5841,23 @@ body > #testcontainer {
 }
 
 @media (min-width: 768px) {
-    .col-edit{
+    .col-edit, .col-edit-1{
         float: left;
     }
 
     .col-edit {
         width: 16.66666667%;
-        height: 83.7%;
+        height: 80.2%;
+    }
+    .col-edit-1 {
+       margin-bottom:10px;
     }
 }
 
-.margin-atas-form {
-    margin-top: -130px;
-}
-
-.margin-atas-button {
-    margin-top: -650px;
+.logoBI {
+    background-image:url(../../Images/BI.png);
+    width:80px;
+    height:80px;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
