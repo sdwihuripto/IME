@@ -200,6 +200,10 @@
     <Content Include="App_Data\IMEDBContext_log.ldf">
       <DependentUpon>IMEDBContext.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\script\bootstrap.js" />
+    <Content Include="Content\script\bootstrap.min.js" />
+    <Content Include="Content\themes\bootstrap-theme.css" />
+    <Content Include="Content\themes\bootstrap-theme.min.css" />
     <Content Include="Content\themes\bootstrap.css" />
     <Content Include="Images\logo-horison-pantone.png" />
     <Content Include="Images\logo-horison-pantone.tif" />
@@ -277,6 +281,19 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Views\BankProfile\Create.aspx" />
+    <Content Include="Views\BankProfile\Delete.aspx" />
+    <Content Include="Views\BankProfile\Details.aspx" />
+    <Content Include="Views\BankProfile\Edit.aspx" />
+    <Content Include="Views\BankProfile\Index.aspx" />
+    <Content Include="Views\ExpProfile\Create.aspx" />
+    <Content Include="Views\ExpProfile\Delete.aspx" />
+    <Content Include="Views\ExpProfile\Details.aspx" />
+    <Content Include="Views\ExpProfile\Edit.aspx" />
+    <Content Include="Views\ExpProfile\Index.aspx" />
+    <Content Include="Views\Home\NomorSurat.aspx" />
+    <Content Include="Views\Home\ProfilBank.aspx" />
+    <Content Include="Views\Home\ProfilEksportir.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
