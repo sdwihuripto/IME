@@ -1,0 +1,62 @@
+﻿@model IEnumerable<DevIME.Models.BankProfileDB>
+
+@{
+    ViewBag.Title = "Profl Bank";
+    ViewBag.Active4 = "active";
+}
+
+<div class="warnaBody col-lg-offset-2">
+    <p>
+        @Html.ActionLink("Create New", "BankCreate")
+    </p>
+    <table class="table col-lg-offset-1 table-responsive table-bordered table-striped table-condensed table-hover" style="width:80%;">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sandi_bank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nama_bank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email_bank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email_ao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email_giv)
+            </th>
+            <th>
+                @Html.Label("Action")
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.sandi_bank)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nama_bank)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email_bank)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email_ao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.email_giv)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.pbid })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

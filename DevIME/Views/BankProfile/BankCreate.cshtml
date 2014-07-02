@@ -1,0 +1,77 @@
+﻿@model DevIME.Models.BankProfileDB
+
+@{
+    ViewBag.Title = "Create";
+    ViewBag.Active4 = "active";
+}
+@section featured {
+<div class="warnaBody col-lg-offset-2">
+    <form method="post" action="">
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <table class="col-lg-offset-1">
+            <tr>
+                <td>
+                    <div class="margin-semua-form">@Html.Label("Sandi Bank")</div>
+                </td>
+                <td>
+                    <input type="text" name="sandi_bank" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Sandi Bank">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="margin-semua-form">@Html.Label("Nama Bank")</div>
+                </td>
+                <td>
+                    <input type="text" name="nama_bank" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Nama Bank">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="margin-semua-form">@Html.Label("Email Bank")</div>
+                </td>
+                <td>
+                    <input type="email" name="email_bank" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email Bank">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="margin-semua-form">@Html.Label("Email AO")</div>
+                </td>
+                <td>
+                    <input type="email" name="email_ao" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email AO">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="margin-semua-form">@Html.Label("Email GIV")</div>
+                </td>
+                <td>
+                    <input type="email" name="email_giv" class="form-control col-lg-offset-2 margin-semua-form" placeholder="Email GIV">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" class="btn btn-default col-lg-offset-2 margin-semua-form" id="show">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <div class="margin-semua-form" style="display: none;" id="divcoba">
+        <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times; </button>
+            Success! Well done its submitted.
+        </div>
+    </div>
+    <div class="margin-semua-form" style="display: none;" id="divcoba2">
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            You've just cancelled the submission.
+        </div>
+    </div>
+</div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

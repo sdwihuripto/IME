@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/themes/css")
+    @Styles.Render("~/Content/themes/base/css")
+    <script>
+        $(document).ready(function () {
+            $("#show").click(function () {
+                var msg = "Are you sure want to submit this form?";
+                if (!confirm(msg)) {
+                    $("#divcoba2").show();
+                    location.reload(1);
+                }
+                else {
+                    $("#divcoba").show();
+                }
+
+
+            });
+        });
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+    </script>
+</head>
+<body>
+        <div class="tinggi-coba">
+            <div class="page-header col-sm-12 warnaHeader">
+                <h2>
+                    <div class="warnaBI col-edit-1">
+                        <img src="../../Images/logo-white-horison.png" style="height: 72px;" />
+                        <small>Informasi Monitoring Eksportir</small>
+                    </div>
+                </h2>
+            </div>
+            <ul class="nav nav-pills nav-stacked col-edit">
+                <li class="@ViewBag.Active1">@Html.ActionLink("Home", "login", "Home")</li>
+                <li class="@ViewBag.Active2">@Html.ActionLink("Input Nomor Surat", "NomorSurat", "Home")</li>
+                <li class="@ViewBag.Active3">@Html.ActionLink("Update Profil Eksportir", "ProfilEksportir", "Home")</li>
+                <li class="@ViewBag.Active4">@Html.ActionLink("Update Profil Bank", "ProfilBank", "Home")</li>
+            </ul>
+            @RenderSection("featured", required: false)
+            @RenderBody()
+            <footer>
+                <div class="margin-untuk-footer warnaBI" id="footerBI">
+                    <div class="col-lg-offset-9"><small>&copy Copyright BANK INDONESIA All Rights Reserved</small></div>
+                </div>
+            </footer>
+        </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿@model DevIME.Models.BankProfileDB
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>BankProfileDB</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.sandi_bank)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.sandi_bank)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nama_bank)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nama_bank)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.email_bank)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.email_bank)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.email_ao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.email_ao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.email_giv)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.email_giv)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.pbid }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
